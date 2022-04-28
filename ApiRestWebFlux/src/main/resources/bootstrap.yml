@@ -1,2 +1,8 @@
-spring.data.mongodb.uri=mongodb://localhost:27017/springApiRest
-config.uploads.path=C:\\Udemy\\Programacion Reactiva - Spring WebFlux\\uploads\\
+spring:
+  application:
+    name: product-service
+  cloud:
+    config:
+      uri: http://localhost:8081
+      username: root
+      password: s3cr3t
