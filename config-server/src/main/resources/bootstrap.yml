@@ -7,9 +7,12 @@ spring:
       server:
         git:
           uri: https://github.com/CleverSalvador21/APIRest_WebFlux.git
-          searchPaths: config-data
+          search-paths: config-data
   security:
     user:
       name: root
       password: s3cr3t
+
+  aplication:
+    name: config-server
 
