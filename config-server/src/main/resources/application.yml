@@ -6,6 +6,7 @@ spring:
     config:
       server:
         git:
+          default-label: master
           uri: https://github.com/CleverSalvador21/APIRest_WebFlux.git
           search-paths: config-data
   security:
